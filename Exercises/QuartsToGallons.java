@@ -1,9 +1,9 @@
 public class QuartsToGallons {
     public static void main(String[] args){
-        int quartsInGallon = 4;
+        final int QUARTS_IN_GALLON = 4;
         int quartsNeeded = 18;
-        int requireGallon = quartsNeeded/quartsInGallon;
-        int requireQuarts = quartsNeeded%quartsInGallon;
+        int requireGallon = quartsNeeded/QUARTS_IN_GALLON;
+        int requireQuarts = quartsNeeded%QUARTS_IN_GALLON;
         System.out.println("A job that needs "+ quartsNeeded+ " quarts requires "+ requireGallon+ " gallons plus "+ requireQuarts+ " quarts.");
     }
 }
