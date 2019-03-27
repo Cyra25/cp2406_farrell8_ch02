@@ -12,6 +12,6 @@ public class Eggs {
         double total = (eggsInDozen*pricePerDozen)+(extraEggs*pricePerEgg/100);
         System.out.println("You ordered " + eggsNeeded);
         System.out.println("That's "+eggsInDozen+" dozen at $"+pricePerDozen+" per dozen and "+
-                            extraEggs+" loose eggss at "+pricePerEgg+ " cents each for a total of $"+ total);
+                            extraEggs+" loose eggs at "+pricePerEgg+ " cents each for a total of $"+ total);
     }
 }
